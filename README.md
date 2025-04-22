@@ -61,14 +61,14 @@ python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 python manage.py migrate
-python manage.py runserver  # 백엔드 서버: http://127.0.0.1:8001
+python manage.py runserver  8001 # 백엔드 서버: http://127.0.0.1:8001
 ```
 
 ### 2. 프론트엔드 실행 (FinScope_front)
 
 ```bash
 cd FinScope_front
-python manage.py runserver 8001  # 프론트 서버: http://127.0.0.1:8000
+python manage.py runserver  # 프론트 서버: http://127.0.0.1:8000
 ```
 
 > 정적 페이지에서 백엔드 API(`http://127.0.0.1:8001/api/`)를 호출하는 구조입니다.
