@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="http://127.0.0.1:8000">
+      <img src="../static/FinScope_logo.png" alt="FinScope" width="30" height="30"
+        class="d-inline-block align-text-top">
+      FinScope
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+      aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <!-- 좌측 메뉴 -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="http://127.0.0.1:8000">홈</a>
+        </li>
+      </ul>
+
+      <!-- 검색창 -->
+      <form class="d-flex me-3 align-items-center" id="stock-search-form">
+        <input class="form-control me-2 flex-grow-1" type="search" placeholder="종목명 검색" id="search-input">
+        <button class="btn btn-outline-success white-nowrap " style="width: 80px;" type="submit">검색</button>
+      </form>
+
+      <!-- 우측 사용자 메뉴 -->
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item d-none" id="nav-mypage">
+          <a class="nav-link" href="http://127.0.0.1:8000/mypage/">마이페이지</a>
+        </li>
+        <li class="nav-item d-none" id="nav-logout">
+          <a class="nav-link" href="#" onclick="logout()">로그아웃</a>
+        </li>
+        <li class="nav-item" id="nav-login">
+          <a class="nav-link" href="http://127.0.0.1:8000/login/">로그인</a>
+        </li>
+        <li class="nav-item" id="nav-signup">
+          <a class="nav-link" href="http://127.0.0.1:8000/sign_up/">회원가입</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
