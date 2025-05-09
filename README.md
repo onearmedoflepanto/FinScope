@@ -87,7 +87,8 @@ GOOGLE_CLIENT_SECRET=your_google_client_secret
 
 ---
 
-# 🚀 FinScope v2(1.1.0) 패치노트
+<details>
+<summary># 🚀 FinScope v2(1.1.0) 패치노트</summary>
 
 ## 📌 주요 변경 사항
 - **API 구조 리팩터링**: API 모듈화 및 코드 구조 개선
@@ -114,6 +115,7 @@ GOOGLE_CLIENT_SECRET=your_google_client_secret
 - 사용자 개인화 추천 시스템 개선
 - 소셜 로그인 보안 강화
 - 다크 모드 지원
+</details>
 
 ## 🧑‍💻 개발자
 
